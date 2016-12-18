@@ -12,7 +12,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #222;
   background: #131c23;
-  z-index: 100;
 }
 /********************
 LINK STYLES
@@ -37,6 +36,7 @@ SECTION STYLES
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 100;
 }
 .nav {
   display: flex;
