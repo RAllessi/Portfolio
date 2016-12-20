@@ -213,6 +213,7 @@ div.img {
   background: #0d161f;
   border-bottom: 4px solid #415730;
   border-radius: 6px;
+	transition: all .5s;
   text-align: left;
   color: #fff;
 }
