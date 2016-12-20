@@ -115,11 +115,11 @@ header .profile-image:hover {
 } 
 
 .tag:hover {
-	background: rgba(00, 00, 00, 0.95);
+	background: rgba(0, 0, 0, 0.95);
 	transform: scale(1.2);
 }
 .location {
-  background: rgba(00, 00, 00, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   font-family: 'Ubuntu', sans-serif;
   color: #415730;
 }
