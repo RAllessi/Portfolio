@@ -23,7 +23,8 @@ a {
     text-decoration: none;
     color: #999;
 }
-    a:hover {
+
+a:hover {
     color: #6633ff;
 }
 
@@ -123,11 +124,13 @@ header .profile-image:hover {
     background: rgba(0, 0, 0, 0.95);
     transform: scale(1.2);
 }
+
 .location {
     background: rgba(0, 0, 0, 0.85);
     font-family: 'Ubuntu', sans-serif;
     color: #415730;
 }
+ 
 .card {
     margin: 30px;
     padding: 20px 40px 40px;
@@ -139,6 +142,7 @@ header .profile-image:hover {
     transition: all .5s;
     color: #ccc;
 }
+ 
 .card:hover {
     border-color: #415730;
 }
@@ -193,15 +197,19 @@ a.social {
     opacity: .4;
     transition: all .5s;
 }
+ 
 a.twitter {
     background-image: url(../img/twitter.svg);
 }
+
 a.github {
     background-image: url(../img/github.svg);
 }
+
 a.social:hover {
     opacity: 1;
 }
+
 .clearfix {
     clear: both;
 }
@@ -292,6 +300,7 @@ div.contact {
 .contact-info li.mail a {
     background-image: url('../img/mail.png');
 }
+
 .contact-info li.twitter a {
     background-image: url('../img/twitter.png');
 }
@@ -305,7 +314,7 @@ RESPONSIVE STYLES
     
 .card {
     margin: 30px auto;
-}
+    }
 }
 
 @media screen and (min-width: 720px) {
@@ -346,5 +355,5 @@ footer {
 
 ul.gallery li {
     width: 28.3333%;
-}
+    }
 }
