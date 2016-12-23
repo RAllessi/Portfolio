@@ -84,7 +84,7 @@ SECTION STYLES
 
 header {
     text-align: center;
-    background: url('../img/animecity.jpg') no-repeat top center ;
+    background: url('img/animecity.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -199,11 +199,11 @@ a.social {
 }
  
 a.twitter {
-    background-image: url(../img/twitter.svg);
+    background-image: url(img/twitter.svg);
 }
 
 a.github {
-    background-image: url(../img/github.svg);
+    background-image: url(img/github.svg);
 }
 
 a.social:hover {
@@ -294,15 +294,15 @@ div.contact {
 }
 
 .contact-info li.phone a {
-    background-image: url('../img/phone.png');
+    background-image: url('img/phone.png');
 }
 
 .contact-info li.mail a {
-    background-image: url('../img/mail.png');
+    background-image: url('img/mail.png');
 }
 
 .contact-info li.twitter a {
-    background-image: url('../img/twitter.png');
+    background-image: url('img/twitter.png');
 }
 
 
